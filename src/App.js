@@ -1,7 +1,10 @@
+import Link from './components/Link'
+
+import './styles/global.css'
+
 function App() {
   return (
-    <div>
-    </div>
+    <Link title="Contato" link="mailto:thiagomarques408@gmail.com" />
   );
 }
 
