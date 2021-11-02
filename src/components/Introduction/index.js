@@ -6,14 +6,14 @@ import './styles.css'
 const Introduction = () => (
   <section>
     <Heading>
-      Olá, meu nome é Thiago <br />
-      Ando construindo alguns projetos web <br />
-      E este, é um deles...<br />
+      Olá, meu nome é Thiago e
+      ando construindo alguns projetos Web. <br />
+      Este é um deles...<br /> <br />
       Seja bem-vindo!
     </Heading>
     <div className="introduction__description">
       <p>
-        Sou estagiário em desenvolvimento web full stack<br />
+        Sou estagiário em Desenvolvimento Web Full Stack<br />
         tenho experiência com Rails e VueJS.
       </p>
     </div>
