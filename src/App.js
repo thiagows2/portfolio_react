@@ -1,13 +1,15 @@
-import Introduction from './components/Introduction';
-import Menu from './components/Menu'
+import SkillCard from './components/SkillCard';
+import { DiReact } from 'react-icons/di'
 
 import './styles/global.css'
 
 function App() {
   return (
-    <Menu />,
-    <Introduction />
-  );
+    <SkillCard
+      image={<DiReact color="FF0A54" size={70} />}
+      title="React"
+    />
+    );
 }
 
 export default App;
