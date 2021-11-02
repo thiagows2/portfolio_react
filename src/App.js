@@ -1,10 +1,10 @@
-import Link from './components/Link'
+import Heading from './components/Heading'
 
 import './styles/global.css'
 
 function App() {
   return (
-    <Link title="Contato" link="mailto:thiagomarques408@gmail.com" />
+    <Heading lineBottom size="small">Steste</Heading>
   );
 }
 
