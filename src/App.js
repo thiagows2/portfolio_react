@@ -1,10 +1,10 @@
-import Heading from './components/Heading'
+import Menu from './components/Menu'
 
 import './styles/global.css'
 
 function App() {
   return (
-    <Heading lineBottom size="small">Steste</Heading>
+    <Menu />
   );
 }
 
